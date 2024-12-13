@@ -52,7 +52,7 @@ then
 	echo "Ok - Gelpia exists"
 else
 	echo "Installing Gelpia..."
-	git clone https://github.com/soarlab/gelpia.git ./tmp/gelpia
+	git clone https://github.com/rospoly/gelpia.git ./tmp/gelpia
 	cd ./tmp/gelpia
 	make requirements
 	make
@@ -65,7 +65,7 @@ then
 	echo "Ok - Gelpia Constraints exists"
 else
 	echo "Installing Gelpia Constraints..."
-	git clone https://github.com/soarlab/gelpia.git ./tmp/gelpia_constraints 
+	git clone https://github.com/rospoly/gelpia.git ./tmp/gelpia_constraints 
 	cd ./tmp/gelpia_constraints
 	git checkout constraints 
 	git pull
